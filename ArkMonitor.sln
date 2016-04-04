@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A77B118-C08A-41D2-946D-7BEDE9C574AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2508E70-DE34-40A3-8579-B613F5D5079B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ArkMonitor.Web", "src\ArkMonitor.Web\ArkMonitor.Web.xproj", "{C1E851AA-F025-4683-B135-AE7CB2CE4C93}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ArkMonitor.Service", "src\ArkMonitor.Service\ArkMonitor.Service.xproj", "{E7CC04C0-3177-4F1C-8AB6-7E32DF18E193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E851AA-F025-4683-B135-AE7CB2CE4C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E851AA-F025-4683-B135-AE7CB2CE4C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E851AA-F025-4683-B135-AE7CB2CE4C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E851AA-F025-4683-B135-AE7CB2CE4C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CC04C0-3177-4F1C-8AB6-7E32DF18E193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CC04C0-3177-4F1C-8AB6-7E32DF18E193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CC04C0-3177-4F1C-8AB6-7E32DF18E193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CC04C0-3177-4F1C-8AB6-7E32DF18E193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1E851AA-F025-4683-B135-AE7CB2CE4C93} = {0A77B118-C08A-41D2-946D-7BEDE9C574AE}
+		{E7CC04C0-3177-4F1C-8AB6-7E32DF18E193} = {0A77B118-C08A-41D2-946D-7BEDE9C574AE}
+	EndGlobalSection
+EndGlobal
